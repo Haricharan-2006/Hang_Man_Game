@@ -98,4 +98,4 @@ while number_of_lives and number_of_correct_guess != len(random_word):
 if number_of_correct_guess == len(random_word):
     print("You won the game!")
 else:
-    print("You lose the game!")
+    print(f"The word is {random_word},You lose the game!")
